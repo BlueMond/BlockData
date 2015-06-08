@@ -29,8 +29,9 @@ public class FileHandler {
         Map map = null;
         System.out.println("Didn't get there..2");
         try {
-            YamlReader reader = new YamlReader(new FileReader(this.data));
-            map = (Map)reader.read();
+        	//temporary deprecation
+            //YamlReader reader = new YamlReader(new FileReader(this.data));
+            //map = (Map)reader.read();
         }
         catch (Exception e) {
             e.printStackTrace();
